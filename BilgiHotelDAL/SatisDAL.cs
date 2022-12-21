@@ -62,7 +62,7 @@ namespace BilgiHotelDAL
                     Value=personel.PersonelId
                 }
 
-            };
+            };//
 
             object deger = SQL.SqlexecuteScalar("sp_InsertSatis", true, kmtprmtr);
 
