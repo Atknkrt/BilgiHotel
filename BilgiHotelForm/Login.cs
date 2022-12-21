@@ -21,7 +21,7 @@ namespace BilgiHotelForm
         {
             InitializeComponent();
         }
-
+        //
         private void btnGiris_Click(object sender, EventArgs e)
         {
             SqlDataReader oku = SQL.SqlexecuteReader("select k.kullaniciAd,k.KullaniciParola,kp.PersonelId,kp.YetkiId from tbl_KullaniciPersonel as kp join tbl_Kullanici as k ON kp.KullaniciId=k.KullaniciId", null);
