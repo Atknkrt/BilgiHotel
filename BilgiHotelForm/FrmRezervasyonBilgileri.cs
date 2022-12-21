@@ -39,11 +39,11 @@ namespace BilgiHotelForm
 
 			tools.ListViewDoldur(LvRezBil, "sp_rezbilgileri", true, sp);
 		}
-		void formdaikibilgilerileriEntityIleYazdır()
+		void formdaikibilgilerileriEntityIleYazdir()
 		{
-			müsteri.MusteriAd = rezbilgileriMüsAd.Text;
-			müsteri.MusteriSoyad = rezBilgileriMüsSoyad.Text;
-			müsteri.MusteriTCKimlik = rezbilmüstc.Text;
+			//müsteri.MusteriAd = rezbilgileriMüsAd.Text;
+			//müsteri.MusteriSoyad = rezBilgileriMüsSoyad.Text;
+			//müsteri.MusteriTCKimlik = rezbilmüstc.Text;
 			rezent.RezervasyonGecerlilikSonTarihi = rezbildtpgecerlilik.Value;
 			rezent.ErkenRezervasyonIndirim = Convert.ToInt32(rezbilindirim.Text);
 			rezent.RezervasyonTipiId = Convert.ToInt32(rezbiltipcmb.SelectedValue);
@@ -51,7 +51,7 @@ namespace BilgiHotelForm
 			rezent.RezervasyonIptalOk = Convert.ToBoolean(Rezcbrezbiliptalmi.Checked);
 			rezent.RezervasyonGirisTarihi = dtprezbilgiris.Value;
 			rezent.RezervasyonCikisTarihi = dtprezbilcikis.Value;
-			rezent.RezervasyonTutari = Convert.ToInt32(rezbilTutar.Text);
+			rezent.RezervasyonTutari = Convert.ToDecimal(rezbilTutar.Text);
 			rezent.OdaId = Convert.ToInt32(rezbilOdaNo.Text);
 			rezent.KartId = Convert.ToInt32(rezbilkartno.Text);
 			rezent.OdaTipiId = Convert.ToInt32(rezbilodatipi.Text);
@@ -60,7 +60,7 @@ namespace BilgiHotelForm
 		}
 
 		void MylistviewDoldurma()
-		{ tools.ListViewDoldur(LvRezBil, "sp_rezbilgilerigetir", false, null); }
+		{ tools.ListViewDoldur(LvRezBil, "sp_rezbilgilerigetir", true, null); }
 
 
 		private void btnrezbiltemizle_Click(object sender, EventArgs e)
@@ -72,7 +72,8 @@ namespace BilgiHotelForm
 		{
 			tools.FormDoldur("select*from rezBilgileri where RezervasyonId=" + LvRezBil.SelectedItems[0].SubItems[0].Text, null, this);
 			rezbilTCyeGöre.Text = "";
-		}
+            rezent.RezervasyonId = Convert.ToInt32(LvRezBil.SelectedItems[0].SubItems[0].Text);
+        }
 
 		private void btnrezbilHepsiniGetir_Click(object sender, EventArgs e)
 		{
@@ -83,10 +84,10 @@ namespace BilgiHotelForm
 		{
 			try
 			{
-				formdaikibilgilerileriEntityIleYazdır();
-				rezent.RezervasyonId= (int)redal.getUpdateRezervasyonBilgileri(rezent,müsteri);
+				formdaikibilgilerileriEntityIleYazdir();
+                int a = redal.getUpdateRezervasyon(rezent);
 
-				if (rezbilmüstc.Text == "")
+                if (rezbilmüstc.Text == "")
 				{
 					MessageBox.Show("TC KİMLİK NUMARASINI GİRİNİZ");
 				}

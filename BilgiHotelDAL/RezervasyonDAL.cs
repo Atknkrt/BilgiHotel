@@ -15,6 +15,7 @@ namespace BilgiHotelDAL
         {
             SqlParameter[] kmtprmtr =
             {
+                
                 new SqlParameter
                 {
                     ParameterName= "RezervasyonGecerlilikSonTarihi",
@@ -125,6 +126,11 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter
                 {
+                    ParameterName= "RezervasyonId",
+                    Value=DüzenelenecekRezervasyon.RezervasyonId
+                },
+                new SqlParameter
+                {
                     ParameterName= "RezervasyonGecerlilikSonTarihi",
                     Value=DüzenelenecekRezervasyon.RezervasyonGecerlilikSonTarihi
                 },
@@ -180,94 +186,9 @@ namespace BilgiHotelDAL
                 }
 
             };
-            int deger = SQL.SqlexecuteNonQuerry("sp_UpdateRezervasyon", true, kmtprmtr);
+            int deger = SQL.SqlexecuteNonQuerry("sp_UpdateRezervasyonBilgileri", true, kmtprmtr);
             return deger;
         }
-		#endregion
-		#region//Update RezervasyonBilgileri
-		public int getUpdateRezervasyonBilgileri(RezervasyonlarEntity DüzenelenecekRezervasyon,MüsterilerEntity müsteri)
-		{
-			SqlParameter[] kmtprmtr =
-			{
-				new SqlParameter
-				{
-					ParameterName= "RezervasyonId",
-					Value=DüzenelenecekRezervasyon.RezervasyonId
-				},
-                new SqlParameter
-				{
-					ParameterName= "MusteriAd",
-					Value=müsteri.MusteriAd
-				},new SqlParameter
-				{
-					ParameterName= "MusteriSoyad",
-					Value=müsteri.MusteriSoyad
-				},
-                new SqlParameter
-				{
-					ParameterName= "MusteriTCKimlik",
-					Value=müsteri.MusteriTCKimlik
-				},
-				new SqlParameter
-				{
-					ParameterName= "RezervasyonGecerlilikSonTarihi",
-					Value=DüzenelenecekRezervasyon.RezervasyonGecerlilikSonTarihi
-				},
-				new SqlParameter
-				{
-					ParameterName= "ErkenRezervasyonIndirim",
-					Value=DüzenelenecekRezervasyon.ErkenRezervasyonIndirim
-				},
-				new SqlParameter
-				{
-					ParameterName= "RezervasyonTipiId",
-					Value=DüzenelenecekRezervasyon.RezervasyonTipiId
-				},
-				 new SqlParameter
-				{
-					ParameterName= "RezervasyonAciklama",
-					Value=DüzenelenecekRezervasyon.RezervasyonAciklama
-				},
-				 new SqlParameter
-				{
-					ParameterName= "RezervasyonIptalOk",
-					Value=DüzenelenecekRezervasyon.RezervasyonIptalOk
-				},
-				 new SqlParameter
-				{
-					ParameterName= "RezervasyonGirisTarihi",
-					Value=DüzenelenecekRezervasyon.RezervasyonGirisTarihi
-				},
-				 new SqlParameter
-				{
-					ParameterName= "RezervasyonCikisTarihi",
-					Value=DüzenelenecekRezervasyon.RezervasyonCikisTarihi
-				},
-				 new SqlParameter
-				{
-					ParameterName= "RezervasyonTutari",
-					Value=DüzenelenecekRezervasyon.RezervasyonTutari
-				},
-				 new SqlParameter
-				{
-					ParameterName= "OdaId",
-					Value=DüzenelenecekRezervasyon.OdaId
-				},
-				 new SqlParameter
-				{
-					ParameterName= "KartId",
-					Value=DüzenelenecekRezervasyon.KartId
-				},
-				 new SqlParameter
-				{
-					ParameterName= "OdaTipiId",
-					Value=DüzenelenecekRezervasyon.OdaTipiId
-				}
-
-			};
-			int deger = SQL.SqlexecuteNonQuerry("sp_UpdateRezervasyonBilgileri", true, kmtprmtr);
-			return deger;
-		}
 		#endregion
 		#region //Id'ye Göre Rezervasyon Getir
 		public RezervasyonlarEntity getTCyeGöreRezervasyonGetir(int RezervasyonId)

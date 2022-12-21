@@ -137,7 +137,7 @@ namespace BilgiHotelForm
             rezent.RezervasyonIptalOk = Convert.ToBoolean(Rezcbreziptalmi.Checked);
             rezent.RezervasyonGirisTarihi = rezdtpodagiris.Value;
             rezent.RezervasyonCikisTarihi = rezdtpodacikis.Value;
-            rezent.RezervasyonTutari = Convert.ToInt32(rezlblfiyat.Text);
+            rezent.RezervasyonTutari = Convert.ToDecimal(rezlblfiyat.Text);
             rezent.OdaId = Convert.ToInt32(reztxtodanumarası.Text);
             rezent.KartId = Convert.ToInt32(reztxtodakartno.Text);
             rezent.OdaTipiId = Convert.ToInt32(txtRezOdaTipi.Text);

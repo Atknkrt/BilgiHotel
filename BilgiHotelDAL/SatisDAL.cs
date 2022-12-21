@@ -11,10 +11,11 @@ namespace BilgiHotelDAL
     public class SatisDAL
     {
         #region//insert Satis ve Satis-Personel tablolarina
-        public int getInsertSatis(SatisEntity EklenecekSatis, PersonellerEntity personel)
+        public object getInsertSatis(SatisEntity EklenecekSatis, PersonellerEntity personel)
         {
             SqlParameter[] kmtprmtr =
             {
+                
                 new SqlParameter
                 {
                     ParameterName= "SatisOdaGirisTarihi",
@@ -63,7 +64,7 @@ namespace BilgiHotelDAL
 
             };
 
-            int deger = SQL.SqlexecuteNonQuerry("sp_InsertSatis", true, kmtprmtr);
+            object deger = SQL.SqlexecuteScalar("sp_InsertSatis", true, kmtprmtr);
 
             return deger;
 

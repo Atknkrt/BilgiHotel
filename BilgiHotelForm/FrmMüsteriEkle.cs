@@ -44,6 +44,7 @@ namespace BilgiHotelForm
         }
         void formdaikileriEntityIleYazdır()
         {
+            
             mymüsteri.MusteriAd = txtMüsAd.Text;
             mymüsteri.MusteriSoyad = txtMüsSoyad.Text;
             mymüsteri.MusteriTCKimlik = txtMüsTcNo.Text;
@@ -100,7 +101,7 @@ namespace BilgiHotelForm
             {
                 formdaikileriEntityIleYazdır();
 
-                mymüsteri.MusteriID = (int)müsteri.getUpdateMüsteri(mymüsteri);
+                int a=müsteri.getUpdateMüsteri(mymüsteri);
 
                 if (txtMüsTcNo.Text == "")
                 {
@@ -108,7 +109,7 @@ namespace BilgiHotelForm
                 }
                 else
                 {
-                    MessageBox.Show("KULLANICI BAŞARIYLA GÜNCELLENDİ");
+                    MessageBox.Show("KULLANICI BAŞARIYLA GÜNCELLENDİ"+a.ToString());
                 }
             }
             catch (Exception HATA)
@@ -147,6 +148,7 @@ namespace BilgiHotelForm
         {
             tool.FormDoldur("select*from tbl_Musteriler where MusteriID=" + listViewMüsBilgileri.SelectedItems[0].SubItems[0].Text, null,this);
             txtGetirTC.Text = "";
+            mymüsteri.MusteriID = Convert.ToInt32(listViewMüsBilgileri.SelectedItems[0].SubItems[0].Text);
         }
 
         private void button1_Click(object sender, EventArgs e)

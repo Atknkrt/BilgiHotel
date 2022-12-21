@@ -10,7 +10,7 @@ namespace BilgiHotelDAL
     {
         public static string con
         {
-            get { return "Server=LEVENT-KURT;Database=DB_Bilgi_Hotel;Integrated Security=True;"; }
+            get { return "Server=.;Database=DB_Bilgi_Hotel;Integrated Security=True;"; }
         }
     }
 }

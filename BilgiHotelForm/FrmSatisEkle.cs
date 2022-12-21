@@ -126,7 +126,7 @@ namespace BilgiHotelForm
                 stsodasatisoplamfiyat.Text = Convert.ToString((fiyat - tutar) * toplamgün);
             }
         }
-        void formdakiSatislarivePersonelientityileyazdırma()
+        void formdakiSatislarivePersonelientityileyazdirma()
         {
             stsent.SatisOdaGirisTarihi = stsdtpodagiris.Value;
             stsent.SatisOdaCikisTarihi = stsdtpodacikis.Value;
@@ -134,8 +134,8 @@ namespace BilgiHotelForm
             stsent.KartId = Convert.ToInt32(ststxtodakartno.Text);
             stsent.OdaId = Convert.ToInt32(ststxtodanumarası.Text);
             stsent.OdaSatisDurum = Convert.ToBoolean(stscbodadurum.Checked);
-            stsent.OdaSatisTip = Convert.ToInt32(ststipcmb.SelectedValue);
             stsent.OdaSatisTutar = Convert.ToDecimal(stsodasatisoplamfiyat.Text);
+            stsent.OdaSatisTip = Convert.ToInt32(ststipcmb.SelectedValue);
             personel.PersonelId = Login.personelId;
         }
 
@@ -143,7 +143,7 @@ namespace BilgiHotelForm
         {
             if (ststxtodanumarası.Text != string.Empty && StsMüsBilgileri.Items.Count > 0 && StsMisBilgileri.Items.Count > 0)
             {
-                formdakiSatislarivePersonelientityileyazdırma();
+                formdakiSatislarivePersonelientityileyazdirma();
                 stsent.SatisId = (int)sadal.getInsertSatis(stsent, personel);
 
 

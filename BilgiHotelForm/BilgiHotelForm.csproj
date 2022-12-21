@@ -85,6 +85,12 @@
     <Compile Include="FrmRezervasyonEkle.Designer.cs">
       <DependentUpon>FrmRezervasyonEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSatisBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSatisBilgileri.Designer.cs">
+      <DependentUpon>FrmSatisBilgileri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSatisEkle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRezervasyonEkle.resx">
       <DependentUpon>FrmRezervasyonEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSatisBilgileri.resx">
+      <DependentUpon>FrmSatisBilgileri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSatisEkle.resx">
       <DependentUpon>FrmSatisEkle.cs</DependentUpon>

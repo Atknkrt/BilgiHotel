@@ -34,6 +34,10 @@
             this.lblSaat = new System.Windows.Forms.Label();
             this.lblTarih = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.stscbodadurum = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.ststipcmb = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -48,6 +52,7 @@
             this.ststxtodakartno = new System.Windows.Forms.TextBox();
             this.ststxtsatistutar = new System.Windows.Forms.TextBox();
             this.stsodasatisoplamfiyat = new System.Windows.Forms.TextBox();
+            this.ststxtindirim = new System.Windows.Forms.TextBox();
             this.stsgbMüsMis = new System.Windows.Forms.GroupBox();
             this.StsMisBilgileri = new System.Windows.Forms.ListView();
             this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -91,11 +96,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.ststcgoremusterigetir = new System.Windows.Forms.TextBox();
-            this.ststxtindirim = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.ststipcmb = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.stscbodadurum = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -196,6 +196,52 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 22.4526F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(553, 331);
             this.tableLayoutPanel1.TabIndex = 154;
+            // 
+            // stscbodadurum
+            // 
+            this.stscbodadurum.AutoSize = true;
+            this.stscbodadurum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.stscbodadurum.Location = new System.Drawing.Point(134, 257);
+            this.stscbodadurum.Name = "stscbodadurum";
+            this.stscbodadurum.Size = new System.Drawing.Size(133, 71);
+            this.stscbodadurum.TabIndex = 193;
+            this.stscbodadurum.Text = "İPTAL";
+            this.stscbodadurum.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(133, 237);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(135, 17);
+            this.label6.TabIndex = 191;
+            this.label6.Text = "ODA SATİS DURUM";
+            // 
+            // ststipcmb
+            // 
+            this.ststipcmb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ststipcmb.FormattingEnabled = true;
+            this.ststipcmb.Location = new System.Drawing.Point(2, 256);
+            this.ststipcmb.Margin = new System.Windows.Forms.Padding(2);
+            this.ststipcmb.Name = "ststipcmb";
+            this.ststipcmb.Size = new System.Drawing.Size(127, 21);
+            this.ststipcmb.TabIndex = 190;
+            this.ststipcmb.SelectionChangeCommitted += new System.EventHandler(this.ststipcmb_SelectionChangeCommitted);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(2, 237);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 17);
+            this.label4.TabIndex = 177;
+            this.label4.Text = "ODA SATİS TİP";
             // 
             // label9
             // 
@@ -351,6 +397,14 @@
             this.stsodasatisoplamfiyat.Name = "stsodasatisoplamfiyat";
             this.stsodasatisoplamfiyat.Size = new System.Drawing.Size(135, 20);
             this.stsodasatisoplamfiyat.TabIndex = 171;
+            // 
+            // ststxtindirim
+            // 
+            this.ststxtindirim.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ststxtindirim.Location = new System.Drawing.Point(273, 182);
+            this.ststxtindirim.Name = "ststxtindirim";
+            this.ststxtindirim.Size = new System.Drawing.Size(138, 20);
+            this.ststxtindirim.TabIndex = 176;
             // 
             // stsgbMüsMis
             // 
@@ -652,60 +706,6 @@
             this.ststcgoremusterigetir.Name = "ststcgoremusterigetir";
             this.ststcgoremusterigetir.Size = new System.Drawing.Size(146, 25);
             this.ststcgoremusterigetir.TabIndex = 3;
-            // 
-            // ststxtindirim
-            // 
-            this.ststxtindirim.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ststxtindirim.Location = new System.Drawing.Point(273, 182);
-            this.ststxtindirim.Name = "ststxtindirim";
-            this.ststxtindirim.Size = new System.Drawing.Size(138, 20);
-            this.ststxtindirim.TabIndex = 176;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(2, 237);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 17);
-            this.label4.TabIndex = 177;
-            this.label4.Text = "ODA SATİS TİP";
-            // 
-            // ststipcmb
-            // 
-            this.ststipcmb.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ststipcmb.FormattingEnabled = true;
-            this.ststipcmb.Location = new System.Drawing.Point(2, 308);
-            this.ststipcmb.Margin = new System.Windows.Forms.Padding(2);
-            this.ststipcmb.Name = "ststipcmb";
-            this.ststipcmb.Size = new System.Drawing.Size(127, 21);
-            this.ststipcmb.TabIndex = 190;
-            this.ststipcmb.SelectionChangeCommitted += new System.EventHandler(this.ststipcmb_SelectionChangeCommitted);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(133, 237);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(135, 17);
-            this.label6.TabIndex = 191;
-            this.label6.Text = "ODA SATİS DURUM";
-            // 
-            // stscbodadurum
-            // 
-            this.stscbodadurum.AutoSize = true;
-            this.stscbodadurum.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.stscbodadurum.Location = new System.Drawing.Point(134, 311);
-            this.stscbodadurum.Name = "stscbodadurum";
-            this.stscbodadurum.Size = new System.Drawing.Size(133, 17);
-            this.stscbodadurum.TabIndex = 193;
-            this.stscbodadurum.Text = "İPTAL";
-            this.stscbodadurum.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
