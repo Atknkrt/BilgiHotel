@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BilgiHotelDAL
 {
     public class DillerDAL
-    {
+    {//
         #region // Insert Diller
         public int getInsertDiller(DillerEntity EklenecekDil)
         {
