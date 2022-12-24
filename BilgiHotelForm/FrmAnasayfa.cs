@@ -44,5 +44,19 @@ namespace BilgiHotelForm
             frb.MdiParent = this;
             frb.Show();
 		}
-	}
+
+        private void satışBilgileriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSatisBilgileri frb = new FrmSatisBilgileri();
+            frb.MdiParent = this;
+            frb.Show();
+        }
+
+        private void vardiyaEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVardiyaEkle frb = new FrmVardiyaEkle();
+            frb.MdiParent = this;
+            frb.Show();
+        }
+    }
 }

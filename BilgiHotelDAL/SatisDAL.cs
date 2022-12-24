@@ -111,6 +111,11 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter
                 {
+                    ParameterName= "SatisId",
+                    Value=DüzenelenecekSatis.SatisId
+                },
+                new SqlParameter
+                {
                     ParameterName= "SatisOdaGirisTarihi",
                     Value=DüzenelenecekSatis.SatisOdaGirisTarihi
                 },

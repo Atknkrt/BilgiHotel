@@ -97,6 +97,12 @@
     <Compile Include="FrmSatisEkle.Designer.cs">
       <DependentUpon>FrmSatisEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVardiyaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVardiyaEkle.Designer.cs">
+      <DependentUpon>FrmVardiyaEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSatisEkle.resx">
       <DependentUpon>FrmSatisEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVardiyaEkle.resx">
+      <DependentUpon>FrmVardiyaEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -219,8 +219,7 @@ namespace BilgiHotelDAL
             //int rezkatsayisi = Convert.ToInt32(SQL.SqlexecuteScalar("sp_reztipinegörefiyat", true, kmtprmtr));
  
         }
-      
-
+        
 
 
 

@@ -44,6 +44,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnHepsiniGetir = new System.Windows.Forms.Button();
             this.txtGetirTC = new System.Windows.Forms.TextBox();
             this.btnMüsGüncelle = new System.Windows.Forms.Button();
             this.btnMüsEkle = new System.Windows.Forms.Button();
@@ -67,6 +68,7 @@
             this.txtMüsVergiNo = new System.Windows.Forms.TextBox();
             this.cbMüsKurumsal = new System.Windows.Forms.CheckBox();
             this.btnMüsGetir = new System.Windows.Forms.Button();
+            this.btnTemizle = new System.Windows.Forms.Button();
             this.listViewMüsBilgileri = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -85,9 +87,7 @@
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnTemizle = new System.Windows.Forms.Button();
             this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.btnHepsiniGetir = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,9 +96,10 @@
             this.label9.AutoSize = true;
             this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label9.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(391, 208);
+            this.label9.Location = new System.Drawing.Point(522, 260);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(188, 32);
+            this.label9.Size = new System.Drawing.Size(251, 40);
             this.label9.TabIndex = 16;
             this.label9.Text = "Telefon No";
             // 
@@ -107,9 +108,10 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label5.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(197, 208);
+            this.label5.Location = new System.Drawing.Point(263, 260);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(188, 32);
+            this.label5.Size = new System.Drawing.Size(251, 40);
             this.label5.TabIndex = 15;
             this.label5.Text = "Vergi Dairesi";
             // 
@@ -118,9 +120,10 @@
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label6.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(3, 208);
+            this.label6.Location = new System.Drawing.Point(4, 260);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(188, 32);
+            this.label6.Size = new System.Drawing.Size(251, 40);
             this.label6.TabIndex = 14;
             this.label6.Text = "Vergi No";
             // 
@@ -129,9 +132,10 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(3, 112);
+            this.label4.Location = new System.Drawing.Point(4, 140);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(188, 32);
+            this.label4.Size = new System.Drawing.Size(251, 40);
             this.label4.TabIndex = 9;
             this.label4.Text = "Pasaport No";
             // 
@@ -139,27 +143,30 @@
             // 
             this.txtMüsYetkili.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsYetkili.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsYetkili.Location = new System.Drawing.Point(391, 163);
+            this.txtMüsYetkili.Location = new System.Drawing.Point(522, 206);
+            this.txtMüsYetkili.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsYetkili.Name = "txtMüsYetkili";
-            this.txtMüsYetkili.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsYetkili.Size = new System.Drawing.Size(251, 30);
             this.txtMüsYetkili.TabIndex = 6;
             // 
             // txtMüsUnvan
             // 
             this.txtMüsUnvan.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsUnvan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsUnvan.Location = new System.Drawing.Point(197, 163);
+            this.txtMüsUnvan.Location = new System.Drawing.Point(263, 206);
+            this.txtMüsUnvan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsUnvan.Name = "txtMüsUnvan";
-            this.txtMüsUnvan.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsUnvan.Size = new System.Drawing.Size(251, 30);
             this.txtMüsUnvan.TabIndex = 5;
             // 
             // txtMüsPasaport
             // 
             this.txtMüsPasaport.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsPasaport.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsPasaport.Location = new System.Drawing.Point(3, 163);
+            this.txtMüsPasaport.Location = new System.Drawing.Point(4, 206);
+            this.txtMüsPasaport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsPasaport.Name = "txtMüsPasaport";
-            this.txtMüsPasaport.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsPasaport.Size = new System.Drawing.Size(251, 30);
             this.txtMüsPasaport.TabIndex = 4;
             // 
             // label1
@@ -168,9 +175,10 @@
             this.label1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(3, 16);
+            this.label1.Location = new System.Drawing.Point(4, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 32);
+            this.label1.Size = new System.Drawing.Size(251, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ad";
             // 
@@ -178,27 +186,30 @@
             // 
             this.txtMüsTcNo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsTcNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsTcNo.Location = new System.Drawing.Point(391, 67);
+            this.txtMüsTcNo.Location = new System.Drawing.Point(522, 86);
+            this.txtMüsTcNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsTcNo.Name = "txtMüsTcNo";
-            this.txtMüsTcNo.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsTcNo.Size = new System.Drawing.Size(251, 30);
             this.txtMüsTcNo.TabIndex = 3;
             // 
             // txtMüsSoyad
             // 
             this.txtMüsSoyad.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsSoyad.Location = new System.Drawing.Point(197, 67);
+            this.txtMüsSoyad.Location = new System.Drawing.Point(263, 86);
+            this.txtMüsSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsSoyad.Name = "txtMüsSoyad";
-            this.txtMüsSoyad.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsSoyad.Size = new System.Drawing.Size(251, 30);
             this.txtMüsSoyad.TabIndex = 2;
             // 
             // txtMüsAd
             // 
             this.txtMüsAd.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsAd.Location = new System.Drawing.Point(3, 67);
+            this.txtMüsAd.Location = new System.Drawing.Point(4, 86);
+            this.txtMüsAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsAd.Name = "txtMüsAd";
-            this.txtMüsAd.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsAd.Size = new System.Drawing.Size(251, 30);
             this.txtMüsAd.TabIndex = 1;
             // 
             // label2
@@ -207,9 +218,10 @@
             this.label2.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label2.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(197, 16);
+            this.label2.Location = new System.Drawing.Point(263, 20);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(188, 32);
+            this.label2.Size = new System.Drawing.Size(251, 40);
             this.label2.TabIndex = 4;
             this.label2.Text = "Soyad";
             // 
@@ -219,9 +231,10 @@
             this.label3.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(391, 16);
+            this.label3.Location = new System.Drawing.Point(522, 20);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(188, 32);
+            this.label3.Size = new System.Drawing.Size(251, 40);
             this.label3.TabIndex = 5;
             this.label3.Text = "Tc Kimlik No";
             // 
@@ -230,9 +243,10 @@
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label7.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(197, 112);
+            this.label7.Location = new System.Drawing.Point(263, 140);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(188, 32);
+            this.label7.Size = new System.Drawing.Size(251, 40);
             this.label7.TabIndex = 12;
             this.label7.Text = "Unvan";
             // 
@@ -241,9 +255,10 @@
             this.label8.AutoSize = true;
             this.label8.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label8.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(391, 119);
+            this.label8.Location = new System.Drawing.Point(522, 148);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(188, 25);
+            this.label8.Size = new System.Drawing.Size(251, 32);
             this.label8.TabIndex = 13;
             this.label8.Text = "Yetkili Ad-Soyad";
             // 
@@ -296,7 +311,8 @@
             this.tableLayoutPanel1.Controls.Add(this.cbMüsKurumsal, 3, 5);
             this.tableLayoutPanel1.Controls.Add(this.btnMüsGetir, 4, 7);
             this.tableLayoutPanel1.Controls.Add(this.btnTemizle, 4, 4);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 90);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 58);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -307,17 +323,32 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(974, 391);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1299, 481);
             this.tableLayoutPanel1.TabIndex = 1;
+            // 
+            // btnHepsiniGetir
+            // 
+            this.btnHepsiniGetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnHepsiniGetir.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnHepsiniGetir.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHepsiniGetir.Location = new System.Drawing.Point(781, 364);
+            this.btnHepsiniGetir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHepsiniGetir.Name = "btnHepsiniGetir";
+            this.btnHepsiniGetir.Size = new System.Drawing.Size(232, 52);
+            this.btnHepsiniGetir.TabIndex = 67;
+            this.btnHepsiniGetir.Text = "HEPSİNİ GETİR";
+            this.btnHepsiniGetir.UseVisualStyleBackColor = false;
+            this.btnHepsiniGetir.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtGetirTC
             // 
             this.txtGetirTC.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtGetirTC.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtGetirTC.Location = new System.Drawing.Point(585, 362);
+            this.txtGetirTC.Location = new System.Drawing.Point(781, 446);
+            this.txtGetirTC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtGetirTC.Name = "txtGetirTC";
-            this.txtGetirTC.Size = new System.Drawing.Size(174, 26);
+            this.txtGetirTC.Size = new System.Drawing.Size(232, 31);
             this.txtGetirTC.TabIndex = 3;
             // 
             // btnMüsGüncelle
@@ -325,9 +356,10 @@
             this.btnMüsGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnMüsGüncelle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMüsGüncelle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMüsGüncelle.Location = new System.Drawing.Point(765, 291);
+            this.btnMüsGüncelle.Location = new System.Drawing.Point(1021, 364);
+            this.btnMüsGüncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMüsGüncelle.Name = "btnMüsGüncelle";
-            this.btnMüsGüncelle.Size = new System.Drawing.Size(206, 42);
+            this.btnMüsGüncelle.Size = new System.Drawing.Size(274, 52);
             this.btnMüsGüncelle.TabIndex = 51;
             this.btnMüsGüncelle.Text = "GÜNCELLE";
             this.btnMüsGüncelle.UseVisualStyleBackColor = false;
@@ -338,9 +370,10 @@
             this.btnMüsEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnMüsEkle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMüsEkle.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMüsEkle.Location = new System.Drawing.Point(765, 243);
+            this.btnMüsEkle.Location = new System.Drawing.Point(1021, 304);
+            this.btnMüsEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMüsEkle.Name = "btnMüsEkle";
-            this.btnMüsEkle.Size = new System.Drawing.Size(206, 42);
+            this.btnMüsEkle.Size = new System.Drawing.Size(274, 52);
             this.btnMüsEkle.TabIndex = 46;
             this.btnMüsEkle.Text = "EKLE";
             this.btnMüsEkle.UseVisualStyleBackColor = false;
@@ -352,9 +385,10 @@
             this.label12.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label12.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(585, 208);
+            this.label12.Location = new System.Drawing.Point(781, 260);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(174, 32);
+            this.label12.Size = new System.Drawing.Size(232, 40);
             this.label12.TabIndex = 58;
             this.label12.Text = "Kurumsal Mı";
             // 
@@ -363,9 +397,10 @@
             this.cmbMüsDil.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cmbMüsDil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbMüsDil.FormattingEnabled = true;
-            this.cmbMüsDil.Location = new System.Drawing.Point(765, 161);
+            this.cmbMüsDil.Location = new System.Drawing.Point(1021, 203);
+            this.cmbMüsDil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbMüsDil.Name = "cmbMüsDil";
-            this.cmbMüsDil.Size = new System.Drawing.Size(206, 28);
+            this.cmbMüsDil.Size = new System.Drawing.Size(274, 33);
             this.cmbMüsDil.TabIndex = 17;
             // 
             // cmbMüsIlce
@@ -373,9 +408,10 @@
             this.cmbMüsIlce.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cmbMüsIlce.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbMüsIlce.FormattingEnabled = true;
-            this.cmbMüsIlce.Location = new System.Drawing.Point(585, 161);
+            this.cmbMüsIlce.Location = new System.Drawing.Point(781, 203);
+            this.cmbMüsIlce.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbMüsIlce.Name = "cmbMüsIlce";
-            this.cmbMüsIlce.Size = new System.Drawing.Size(174, 28);
+            this.cmbMüsIlce.Size = new System.Drawing.Size(232, 33);
             this.cmbMüsIlce.TabIndex = 13;
             // 
             // cmbMüsUlke
@@ -383,9 +419,10 @@
             this.cmbMüsUlke.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cmbMüsUlke.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbMüsUlke.FormattingEnabled = true;
-            this.cmbMüsUlke.Location = new System.Drawing.Point(585, 65);
+            this.cmbMüsUlke.Location = new System.Drawing.Point(781, 83);
+            this.cmbMüsUlke.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbMüsUlke.Name = "cmbMüsUlke";
-            this.cmbMüsUlke.Size = new System.Drawing.Size(174, 28);
+            this.cmbMüsUlke.Size = new System.Drawing.Size(232, 33);
             this.cmbMüsUlke.TabIndex = 14;
             this.cmbMüsUlke.SelectionChangeCommitted += new System.EventHandler(this.cmbMüsUlke_SelectionChangeCommitted);
             // 
@@ -394,9 +431,10 @@
             this.cmbMüsIl.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cmbMüsIl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbMüsIl.FormattingEnabled = true;
-            this.cmbMüsIl.Location = new System.Drawing.Point(765, 65);
+            this.cmbMüsIl.Location = new System.Drawing.Point(1021, 83);
+            this.cmbMüsIl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbMüsIl.Name = "cmbMüsIl";
-            this.cmbMüsIl.Size = new System.Drawing.Size(206, 28);
+            this.cmbMüsIl.Size = new System.Drawing.Size(274, 33);
             this.cmbMüsIl.TabIndex = 12;
             this.cmbMüsIl.SelectionChangeCommitted += new System.EventHandler(this.cmbMüsIl_SelectionChangeCommitted);
             // 
@@ -406,9 +444,10 @@
             this.label15.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label15.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(765, 112);
+            this.label15.Location = new System.Drawing.Point(1021, 140);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(206, 32);
+            this.label15.Size = new System.Drawing.Size(274, 40);
             this.label15.TabIndex = 52;
             this.label15.Text = "Diller";
             // 
@@ -418,9 +457,10 @@
             this.label11.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label11.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label11.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(765, 16);
+            this.label11.Location = new System.Drawing.Point(1021, 20);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(206, 32);
+            this.label11.Size = new System.Drawing.Size(274, 40);
             this.label11.TabIndex = 49;
             this.label11.Text = "Şehirler";
             // 
@@ -430,9 +470,10 @@
             this.label14.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label14.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label14.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(585, 112);
+            this.label14.Location = new System.Drawing.Point(781, 140);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(174, 32);
+            this.label14.Size = new System.Drawing.Size(232, 40);
             this.label14.TabIndex = 48;
             this.label14.Text = "İlçeler";
             // 
@@ -442,9 +483,10 @@
             this.label10.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.label10.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label10.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(585, 16);
+            this.label10.Location = new System.Drawing.Point(781, 20);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(174, 32);
+            this.label10.Size = new System.Drawing.Size(232, 40);
             this.label10.TabIndex = 44;
             this.label10.Text = "Ülkeler";
             // 
@@ -452,27 +494,30 @@
             // 
             this.txtMüsAciklama.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsAciklama.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsAciklama.Location = new System.Drawing.Point(391, 362);
+            this.txtMüsAciklama.Location = new System.Drawing.Point(522, 446);
+            this.txtMüsAciklama.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsAciklama.Name = "txtMüsAciklama";
-            this.txtMüsAciklama.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsAciklama.Size = new System.Drawing.Size(251, 31);
             this.txtMüsAciklama.TabIndex = 15;
             // 
             // txtMüsAdres
             // 
             this.txtMüsAdres.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsAdres.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsAdres.Location = new System.Drawing.Point(197, 362);
+            this.txtMüsAdres.Location = new System.Drawing.Point(263, 446);
+            this.txtMüsAdres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsAdres.Name = "txtMüsAdres";
-            this.txtMüsAdres.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsAdres.Size = new System.Drawing.Size(251, 31);
             this.txtMüsAdres.TabIndex = 11;
             // 
             // txtMüsEposta
             // 
             this.txtMüsEposta.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsEposta.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsEposta.Location = new System.Drawing.Point(3, 362);
+            this.txtMüsEposta.Location = new System.Drawing.Point(4, 446);
+            this.txtMüsEposta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsEposta.Name = "txtMüsEposta";
-            this.txtMüsEposta.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsEposta.Size = new System.Drawing.Size(251, 31);
             this.txtMüsEposta.TabIndex = 10;
             // 
             // label18
@@ -480,9 +525,10 @@
             this.label18.AutoSize = true;
             this.label18.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label18.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(391, 304);
+            this.label18.Location = new System.Drawing.Point(522, 380);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(188, 32);
+            this.label18.Size = new System.Drawing.Size(251, 40);
             this.label18.TabIndex = 33;
             this.label18.Text = "Aciklama";
             // 
@@ -491,9 +537,10 @@
             this.label17.AutoSize = true;
             this.label17.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label17.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(197, 304);
+            this.label17.Location = new System.Drawing.Point(263, 380);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(188, 32);
+            this.label17.Size = new System.Drawing.Size(251, 40);
             this.label17.TabIndex = 32;
             this.label17.Text = "Adres";
             // 
@@ -502,9 +549,10 @@
             this.label16.AutoSize = true;
             this.label16.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label16.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(3, 304);
+            this.label16.Location = new System.Drawing.Point(4, 380);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(188, 32);
+            this.label16.Size = new System.Drawing.Size(251, 40);
             this.label16.TabIndex = 31;
             this.label16.Text = "E-Posta";
             // 
@@ -512,27 +560,30 @@
             // 
             this.txtMüsTelefon.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsTelefon.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsTelefon.Location = new System.Drawing.Point(391, 259);
+            this.txtMüsTelefon.Location = new System.Drawing.Point(522, 325);
+            this.txtMüsTelefon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsTelefon.Name = "txtMüsTelefon";
-            this.txtMüsTelefon.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsTelefon.Size = new System.Drawing.Size(251, 31);
             this.txtMüsTelefon.TabIndex = 9;
             // 
             // txtMüsVergiDairesi
             // 
             this.txtMüsVergiDairesi.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsVergiDairesi.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsVergiDairesi.Location = new System.Drawing.Point(197, 259);
+            this.txtMüsVergiDairesi.Location = new System.Drawing.Point(263, 325);
+            this.txtMüsVergiDairesi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsVergiDairesi.Name = "txtMüsVergiDairesi";
-            this.txtMüsVergiDairesi.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsVergiDairesi.Size = new System.Drawing.Size(251, 31);
             this.txtMüsVergiDairesi.TabIndex = 8;
             // 
             // txtMüsVergiNo
             // 
             this.txtMüsVergiNo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.txtMüsVergiNo.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtMüsVergiNo.Location = new System.Drawing.Point(3, 259);
+            this.txtMüsVergiNo.Location = new System.Drawing.Point(4, 325);
+            this.txtMüsVergiNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMüsVergiNo.Name = "txtMüsVergiNo";
-            this.txtMüsVergiNo.Size = new System.Drawing.Size(188, 26);
+            this.txtMüsVergiNo.Size = new System.Drawing.Size(251, 31);
             this.txtMüsVergiNo.TabIndex = 7;
             // 
             // cbMüsKurumsal
@@ -540,9 +591,10 @@
             this.cbMüsKurumsal.AutoSize = true;
             this.cbMüsKurumsal.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cbMüsKurumsal.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cbMüsKurumsal.Location = new System.Drawing.Point(585, 256);
+            this.cbMüsKurumsal.Location = new System.Drawing.Point(781, 320);
+            this.cbMüsKurumsal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbMüsKurumsal.Name = "cbMüsKurumsal";
-            this.cbMüsKurumsal.Size = new System.Drawing.Size(174, 29);
+            this.cbMüsKurumsal.Size = new System.Drawing.Size(232, 36);
             this.cbMüsKurumsal.TabIndex = 16;
             this.cbMüsKurumsal.Text = "Kurumsal";
             this.cbMüsKurumsal.UseVisualStyleBackColor = true;
@@ -552,13 +604,28 @@
             this.btnMüsGetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnMüsGetir.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnMüsGetir.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnMüsGetir.Location = new System.Drawing.Point(765, 339);
+            this.btnMüsGetir.Location = new System.Drawing.Point(1021, 424);
+            this.btnMüsGetir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMüsGetir.Name = "btnMüsGetir";
-            this.btnMüsGetir.Size = new System.Drawing.Size(206, 49);
+            this.btnMüsGetir.Size = new System.Drawing.Size(274, 53);
             this.btnMüsGetir.TabIndex = 60;
             this.btnMüsGetir.Text = "GETİR";
             this.btnMüsGetir.UseVisualStyleBackColor = false;
             this.btnMüsGetir.Click += new System.EventHandler(this.btnMüsGetir_Click);
+            // 
+            // btnTemizle
+            // 
+            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnTemizle.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnTemizle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTemizle.Location = new System.Drawing.Point(1021, 244);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(274, 52);
+            this.btnTemizle.TabIndex = 66;
+            this.btnTemizle.Text = "TEMİZLE";
+            this.btnTemizle.UseVisualStyleBackColor = false;
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
             // listViewMüsBilgileri
             // 
@@ -583,9 +650,10 @@
             this.columnHeader17,
             this.columnHeader18});
             this.listViewMüsBilgileri.HideSelection = false;
-            this.listViewMüsBilgileri.Location = new System.Drawing.Point(3, 484);
+            this.listViewMüsBilgileri.Location = new System.Drawing.Point(13, 547);
+            this.listViewMüsBilgileri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listViewMüsBilgileri.Name = "listViewMüsBilgileri";
-            this.listViewMüsBilgileri.Size = new System.Drawing.Size(971, 302);
+            this.listViewMüsBilgileri.Size = new System.Drawing.Size(1293, 228);
             this.listViewMüsBilgileri.TabIndex = 66;
             this.listViewMüsBilgileri.UseCompatibleStateImageBehavior = false;
             this.listViewMüsBilgileri.View = System.Windows.Forms.View.Details;
@@ -669,44 +737,19 @@
             // 
             this.columnHeader17.Text = "Kurumsal Mı";
             // 
-            // btnTemizle
-            // 
-            this.btnTemizle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnTemizle.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnTemizle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTemizle.Location = new System.Drawing.Point(765, 195);
-            this.btnTemizle.Name = "btnTemizle";
-            this.btnTemizle.Size = new System.Drawing.Size(206, 42);
-            this.btnTemizle.TabIndex = 66;
-            this.btnTemizle.Text = "TEMİZLE";
-            this.btnTemizle.UseVisualStyleBackColor = false;
-            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
-            // 
             // columnHeader18
             // 
             this.columnHeader18.Text = "Dil";
             // 
-            // btnHepsiniGetir
-            // 
-            this.btnHepsiniGetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnHepsiniGetir.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnHepsiniGetir.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnHepsiniGetir.Location = new System.Drawing.Point(585, 291);
-            this.btnHepsiniGetir.Name = "btnHepsiniGetir";
-            this.btnHepsiniGetir.Size = new System.Drawing.Size(174, 42);
-            this.btnHepsiniGetir.TabIndex = 67;
-            this.btnHepsiniGetir.Text = "HEPSİNİ GETİR";
-            this.btnHepsiniGetir.UseVisualStyleBackColor = false;
-            this.btnHepsiniGetir.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FrmMüsteriEkle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(977, 786);
+            this.ClientSize = new System.Drawing.Size(1303, 778);
             this.Controls.Add(this.listViewMüsBilgileri);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMüsteriEkle";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmMüsteriEkle";

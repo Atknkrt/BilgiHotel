@@ -46,6 +46,11 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter
                 {
+                    ParameterName= "VardiyaId",
+                    Value=güncellenecekVardiya.VardiyaId
+                },
+                new SqlParameter
+                {
                     ParameterName= "VardiyaTipi",
                     Value=güncellenecekVardiya.VardiyaTipi
                 },
