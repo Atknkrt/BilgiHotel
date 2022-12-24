@@ -58,5 +58,12 @@ namespace BilgiHotelForm
             frb.MdiParent = this;
             frb.Show();
         }
+
+        private void erkenRezervasyonİndirimiEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmErkenRezervasyonİndirimi frb = new FrmErkenRezervasyonİndirimi();
+            frb.MdiParent = this;
+            frb.Show();
+        }
     }
 }

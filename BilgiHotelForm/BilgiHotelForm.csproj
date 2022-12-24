@@ -61,6 +61,12 @@
     <Compile Include="FrmAnasayfa.Designer.cs">
       <DependentUpon>FrmAnasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmErkenRezervasyonİndirimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmErkenRezervasyonİndirimi.Designer.cs">
+      <DependentUpon>FrmErkenRezervasyonİndirimi.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMisafirEkle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,9 @@
     <Compile Include="Program.cs" />
     <EmbeddedResource Include="FrmAnasayfa.resx">
       <DependentUpon>FrmAnasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmErkenRezervasyonİndirimi.resx">
+      <DependentUpon>FrmErkenRezervasyonİndirimi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMisafirEkle.resx">
       <DependentUpon>FrmMisafirEkle.cs</DependentUpon>

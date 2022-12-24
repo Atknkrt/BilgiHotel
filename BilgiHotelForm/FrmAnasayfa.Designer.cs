@@ -169,7 +169,7 @@
             // 
             this.satışBilgileriToolStripMenuItem.BackColor = System.Drawing.Color.Teal;
             this.satışBilgileriToolStripMenuItem.Name = "satışBilgileriToolStripMenuItem";
-            this.satışBilgileriToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.satışBilgileriToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.satışBilgileriToolStripMenuItem.Text = "Satış Bilgileri";
             this.satışBilgileriToolStripMenuItem.Click += new System.EventHandler(this.satışBilgileriToolStripMenuItem_Click);
             // 
@@ -211,6 +211,7 @@
             this.erkenRezervasyonİndirimiEkleToolStripMenuItem.Name = "erkenRezervasyonİndirimiEkleToolStripMenuItem";
             this.erkenRezervasyonİndirimiEkleToolStripMenuItem.Size = new System.Drawing.Size(364, 26);
             this.erkenRezervasyonİndirimiEkleToolStripMenuItem.Text = "Erken Rezervasyon İndirimi Ekle";
+            this.erkenRezervasyonİndirimiEkleToolStripMenuItem.Click += new System.EventHandler(this.erkenRezervasyonİndirimiEkleToolStripMenuItem_Click);
             // 
             // kullanıcıEkleToolStripMenuItem
             // 
@@ -241,7 +242,7 @@
             this.Controls.Add(toolStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmAnasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAnasayfa";
