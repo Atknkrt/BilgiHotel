@@ -35,7 +35,7 @@ namespace BilgiHotelForm
 
         private void FrmVardiyaEkle_Load(object sender, EventArgs e)
         {
-
+            MylistviewDoldurma();
         }
         void formdaikileriEntityIleYazdır()
         {

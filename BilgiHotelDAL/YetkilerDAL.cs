@@ -27,12 +27,12 @@ namespace BilgiHotelDAL
                 },
                 new SqlParameter
                 {
-                    ParameterName= "YetkiGuvenlikKod",
+                    ParameterName= "YetkiGüvenlikKod",
                     Value=EklenecekYetki.YetkiGuvenlikKod
                 },
                 new SqlParameter
                 {
-                    ParameterName = "YetkiAccessKod",
+                    ParameterName = "YetkiAccesKod",
                     Value = EklenecekYetki.YetkiAccessKod
                 }
 
@@ -49,6 +49,11 @@ namespace BilgiHotelDAL
         {
             SqlParameter[] kmtprmtr =
             {
+                new SqlParameter
+                {
+                    ParameterName= "YetkiId",
+                    Value=güncellenecekYetki.YetkiId
+                },
                 new SqlParameter
                 {
                     ParameterName= "YetkiAd",

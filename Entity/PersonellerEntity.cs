@@ -26,7 +26,6 @@ namespace Entity
         public int GorevId { get; set; }
         public int PersonelKategoriID { get; set; }
         public bool PersonelEngelDurumu { get; set; }
-        public string PersonelHesKodu { get; set; }
         public int IlID { get; set; }
         public int IlceID { get; set; }
         public int UlkeID { get; set; }

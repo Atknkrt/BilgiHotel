@@ -33,7 +33,7 @@ namespace BilgiHotelForm
         { tool.ListViewDoldur(lverkenrez, "sp_erkenrezhepsinigetir", false, null); }
         private void FrmErkenRezervasyonİndirimi_Load(object sender, EventArgs e)
         {
-
+            MylistviewDoldurma();
         }
 
         private void btnerkrezekle_Click(object sender, EventArgs e)

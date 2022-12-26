@@ -204,6 +204,7 @@
             this.yetkiEkleToolStripMenuItem.Name = "yetkiEkleToolStripMenuItem";
             this.yetkiEkleToolStripMenuItem.Size = new System.Drawing.Size(364, 26);
             this.yetkiEkleToolStripMenuItem.Text = "Yetki Ekle";
+            this.yetkiEkleToolStripMenuItem.Click += new System.EventHandler(this.yetkiEkleToolStripMenuItem_Click);
             // 
             // erkenRezervasyonİndirimiEkleToolStripMenuItem
             // 

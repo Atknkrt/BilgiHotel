@@ -65,5 +65,12 @@ namespace BilgiHotelForm
             frb.MdiParent = this;
             frb.Show();
         }
+
+        private void yetkiEkleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmYetkiler frb = new FrmYetkiler();
+            frb.MdiParent = this;
+            frb.Show();
+        }
     }
 }

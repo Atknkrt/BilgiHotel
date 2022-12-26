@@ -100,13 +100,7 @@ namespace BilgiHotelDAL
                 {
                     ParameterName= "PersonelEngelDurumu",
                     Value=EklenecekPersonel.PersonelEngelDurumu
-                },
-                 new SqlParameter
-                {
-                    ParameterName= "PersonelHesKodu",
-                    Value=EklenecekPersonel.PersonelHesKodu
-
-                },
+                },                
                  new SqlParameter
                 {
                     ParameterName= "IlID",
@@ -249,12 +243,6 @@ namespace BilgiHotelDAL
                 },
                  new SqlParameter
                 {
-                    ParameterName= "PersonelHesKodu",
-                    Value=GüncellenecekPersonel.PersonelHesKodu
-
-                },
-                 new SqlParameter
-                {
                     ParameterName= "IlID",
                     Value=GüncellenecekPersonel.IlID
                 },
@@ -334,7 +322,6 @@ namespace BilgiHotelDAL
                 mypersonel.GorevId = Convert.ToInt32(oku["GorevId"]);
                 mypersonel.PersonelKategoriID = Convert.ToInt32(oku["PersonelKategoriID"]);
                 mypersonel.PersonelEngelDurumu = Convert.ToBoolean(oku["PersonelEngelDurumu"]);
-                mypersonel.PersonelHesKodu = oku["PersonelHesKodu"].ToString();
                 mypersonel.IlID = Convert.ToInt32(oku["IlID"]);
                 mypersonel.IlceID = Convert.ToInt32(oku["IlceID"]);
                 mypersonel.UlkeID = Convert.ToInt32(oku["UlkeID"]);
@@ -372,7 +359,6 @@ namespace BilgiHotelDAL
                 personeller.GorevId = Convert.ToInt32(oku["GorevId"]);
                 personeller.PersonelKategoriID = Convert.ToInt32(oku["PersonelKategoriID"]);
                 personeller.PersonelEngelDurumu = Convert.ToBoolean(oku["PersonelEngelDurumu"]);
-                personeller.PersonelHesKodu = oku["PersonelHesKodu"].ToString();
                 personeller.IlID = Convert.ToInt32(oku["IlID"]);
                 personeller.IlceID = Convert.ToInt32(oku["IlceID"]);
                 personeller.UlkeID = Convert.ToInt32(oku["UlkeID"]);

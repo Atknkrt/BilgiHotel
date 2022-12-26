@@ -118,9 +118,11 @@
             this.gbMüsMis.Controls.Add(this.label11);
             this.gbMüsMis.Controls.Add(this.label10);
             this.gbMüsMis.Controls.Add(this.reztcgoremusterigetir);
-            this.gbMüsMis.Location = new System.Drawing.Point(12, 106);
+            this.gbMüsMis.Location = new System.Drawing.Point(16, 130);
+            this.gbMüsMis.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gbMüsMis.Name = "gbMüsMis";
-            this.gbMüsMis.Size = new System.Drawing.Size(757, 476);
+            this.gbMüsMis.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbMüsMis.Size = new System.Drawing.Size(1009, 586);
             this.gbMüsMis.TabIndex = 147;
             this.gbMüsMis.TabStop = false;
             this.gbMüsMis.Text = "Konuk Bilgileri";
@@ -147,9 +149,10 @@
             this.columnHeader33,
             this.columnHeader34});
             this.REZMisBilgileri.HideSelection = false;
-            this.REZMisBilgileri.Location = new System.Drawing.Point(192, 224);
+            this.REZMisBilgileri.Location = new System.Drawing.Point(256, 276);
+            this.REZMisBilgileri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.REZMisBilgileri.Name = "REZMisBilgileri";
-            this.REZMisBilgileri.Size = new System.Drawing.Size(538, 203);
+            this.REZMisBilgileri.Size = new System.Drawing.Size(716, 249);
             this.REZMisBilgileri.TabIndex = 133;
             this.REZMisBilgileri.UseCompatibleStateImageBehavior = false;
             this.REZMisBilgileri.View = System.Windows.Forms.View.Details;
@@ -252,9 +255,10 @@
             this.columnHeader17,
             this.columnHeader18});
             this.REZMüsBilgileri.HideSelection = false;
-            this.REZMüsBilgileri.Location = new System.Drawing.Point(192, 19);
+            this.REZMüsBilgileri.Location = new System.Drawing.Point(256, 23);
+            this.REZMüsBilgileri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.REZMüsBilgileri.Name = "REZMüsBilgileri";
-            this.REZMüsBilgileri.Size = new System.Drawing.Size(538, 188);
+            this.REZMüsBilgileri.Size = new System.Drawing.Size(716, 230);
             this.REZMüsBilgileri.TabIndex = 132;
             this.REZMüsBilgileri.UseCompatibleStateImageBehavior = false;
             this.REZMüsBilgileri.View = System.Windows.Forms.View.Details;
@@ -345,10 +349,10 @@
             // 
             this.rezmisgetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rezmisgetir.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rezmisgetir.Location = new System.Drawing.Point(95, 331);
-            this.rezmisgetir.Margin = new System.Windows.Forms.Padding(2);
+            this.rezmisgetir.Location = new System.Drawing.Point(127, 407);
+            this.rezmisgetir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezmisgetir.Name = "rezmisgetir";
-            this.rezmisgetir.Size = new System.Drawing.Size(73, 51);
+            this.rezmisgetir.Size = new System.Drawing.Size(97, 63);
             this.rezmisgetir.TabIndex = 131;
             this.rezmisgetir.Text = "Getir";
             this.rezmisgetir.UseVisualStyleBackColor = false;
@@ -358,10 +362,10 @@
             // 
             this.rezmüsgetir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.rezmüsgetir.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rezmüsgetir.Location = new System.Drawing.Point(95, 76);
-            this.rezmüsgetir.Margin = new System.Windows.Forms.Padding(2);
+            this.rezmüsgetir.Location = new System.Drawing.Point(127, 94);
+            this.rezmüsgetir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezmüsgetir.Name = "rezmüsgetir";
-            this.rezmüsgetir.Size = new System.Drawing.Size(73, 51);
+            this.rezmüsgetir.Size = new System.Drawing.Size(97, 63);
             this.rezmüsgetir.TabIndex = 130;
             this.rezmüsgetir.Text = "Getir";
             this.rezmüsgetir.UseVisualStyleBackColor = false;
@@ -371,20 +375,19 @@
             // 
             this.reztcyegörmisafirgetir.BackColor = System.Drawing.Color.White;
             this.reztcyegörmisafirgetir.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.reztcyegörmisafirgetir.Location = new System.Drawing.Point(22, 299);
-            this.reztcyegörmisafirgetir.Margin = new System.Windows.Forms.Padding(2);
+            this.reztcyegörmisafirgetir.Location = new System.Drawing.Point(29, 368);
+            this.reztcyegörmisafirgetir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztcyegörmisafirgetir.Name = "reztcyegörmisafirgetir";
-            this.reztcyegörmisafirgetir.Size = new System.Drawing.Size(146, 25);
+            this.reztcyegörmisafirgetir.Size = new System.Drawing.Size(193, 29);
             this.reztcyegörmisafirgetir.TabIndex = 110;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(50, 276);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(67, 340);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 21);
+            this.label11.Size = new System.Drawing.Size(125, 28);
             this.label11.TabIndex = 109;
             this.label11.Text = "MİSAFİRLER";
             // 
@@ -392,10 +395,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(44, 16);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(59, 20);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(106, 21);
+            this.label10.Size = new System.Drawing.Size(132, 28);
             this.label10.TabIndex = 108;
             this.label10.Text = "MÜSTERİLER";
             // 
@@ -403,10 +405,10 @@
             // 
             this.reztcgoremusterigetir.BackColor = System.Drawing.Color.White;
             this.reztcgoremusterigetir.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.reztcgoremusterigetir.Location = new System.Drawing.Point(22, 42);
-            this.reztcgoremusterigetir.Margin = new System.Windows.Forms.Padding(2);
+            this.reztcgoremusterigetir.Location = new System.Drawing.Point(29, 52);
+            this.reztcgoremusterigetir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztcgoremusterigetir.Name = "reztcgoremusterigetir";
-            this.reztcgoremusterigetir.Size = new System.Drawing.Size(146, 25);
+            this.reztcgoremusterigetir.Size = new System.Drawing.Size(193, 29);
             this.reztcgoremusterigetir.TabIndex = 3;
             // 
             // tableLayoutPanel1
@@ -442,7 +444,8 @@
             this.tableLayoutPanel1.Controls.Add(this.rezlblfiyat, 2, 5);
             this.tableLayoutPanel1.Controls.Add(this.Rezcbreziptalmi, 3, 5);
             this.tableLayoutPanel1.Controls.Add(this.txtRezOdaTipi, 2, 3);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(775, 117);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(1033, 144);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 8;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.17712F));
@@ -451,19 +454,19 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.558824F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.23529F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.13725F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(553, 315);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(737, 388);
             this.tableLayoutPanel1.TabIndex = 148;
             // 
             // reztxtaciklama
             // 
             this.reztxtaciklama.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.reztxtaciklama.Location = new System.Drawing.Point(2, 293);
-            this.reztxtaciklama.Margin = new System.Windows.Forms.Padding(2);
+            this.reztxtaciklama.Location = new System.Drawing.Point(3, 364);
+            this.reztxtaciklama.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztxtaciklama.Name = "reztxtaciklama";
-            this.reztxtaciklama.Size = new System.Drawing.Size(127, 20);
+            this.reztxtaciklama.Size = new System.Drawing.Size(168, 22);
             this.reztxtaciklama.TabIndex = 180;
             // 
             // Aciklama
@@ -471,30 +474,29 @@
             this.Aciklama.AutoSize = true;
             this.Aciklama.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.Aciklama.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Aciklama.Location = new System.Drawing.Point(2, 231);
-            this.Aciklama.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Aciklama.Location = new System.Drawing.Point(3, 281);
             this.Aciklama.Name = "Aciklama";
-            this.Aciklama.Size = new System.Drawing.Size(127, 34);
+            this.Aciklama.Size = new System.Drawing.Size(168, 46);
             this.Aciklama.TabIndex = 179;
             this.Aciklama.Text = "REZERVASYON ACİKLAMA";
             // 
             // rezdtpsongecerlilik
             // 
             this.rezdtpsongecerlilik.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.rezdtpsongecerlilik.Location = new System.Drawing.Point(2, 201);
-            this.rezdtpsongecerlilik.Margin = new System.Windows.Forms.Padding(2);
+            this.rezdtpsongecerlilik.Location = new System.Drawing.Point(3, 251);
+            this.rezdtpsongecerlilik.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezdtpsongecerlilik.Name = "rezdtpsongecerlilik";
-            this.rezdtpsongecerlilik.Size = new System.Drawing.Size(127, 20);
+            this.rezdtpsongecerlilik.Size = new System.Drawing.Size(168, 22);
             this.rezdtpsongecerlilik.TabIndex = 174;
             // 
             // reztipcmb
             // 
             this.reztipcmb.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.reztipcmb.FormattingEnabled = true;
-            this.reztipcmb.Location = new System.Drawing.Point(133, 200);
-            this.reztipcmb.Margin = new System.Windows.Forms.Padding(2);
+            this.reztipcmb.Location = new System.Drawing.Point(177, 249);
+            this.reztipcmb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztipcmb.Name = "reztipcmb";
-            this.reztipcmb.Size = new System.Drawing.Size(135, 21);
+            this.reztipcmb.Size = new System.Drawing.Size(179, 24);
             this.reztipcmb.TabIndex = 172;
             this.reztipcmb.SelectedIndexChanged += new System.EventHandler(this.reztipcmb_SelectedIndexChanged);
             this.reztipcmb.SelectionChangeCommitted += new System.EventHandler(this.reztipcmb_SelectionChangeCommitted);
@@ -504,10 +506,9 @@
             this.label9.AutoSize = true;
             this.label9.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(2, 10);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(3, 10);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(127, 17);
+            this.label9.Size = new System.Drawing.Size(168, 23);
             this.label9.TabIndex = 136;
             this.label9.Text = "GİRİŞ TARİHİ ";
             // 
@@ -516,10 +517,9 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(133, 10);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(177, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 17);
+            this.label3.Size = new System.Drawing.Size(179, 23);
             this.label3.TabIndex = 137;
             this.label3.Text = "ÇIKIŞ TARİHİ";
             // 
@@ -528,10 +528,9 @@
             this.label12.AutoSize = true;
             this.label12.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(416, 154);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(554, 188);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(135, 17);
+            this.label12.Size = new System.Drawing.Size(180, 23);
             this.label12.TabIndex = 162;
             this.label12.Text = "REZERVASYON İPTAL";
             // 
@@ -540,10 +539,9 @@
             this.label22.AutoSize = true;
             this.label22.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(272, 137);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(362, 165);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(140, 34);
+            this.label22.Size = new System.Drawing.Size(186, 46);
             this.label22.TabIndex = 161;
             this.label22.Text = "ODA SATIŞ TOPLAM FİYAT";
             // 
@@ -552,10 +550,9 @@
             this.label5.AutoSize = true;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(133, 154);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(177, 188);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 17);
+            this.label5.Size = new System.Drawing.Size(179, 23);
             this.label5.TabIndex = 160;
             this.label5.Text = "REZERVASYON TİPİ";
             // 
@@ -564,10 +561,9 @@
             this.label6.AutoSize = true;
             this.label6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(2, 137);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(3, 165);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(127, 34);
+            this.label6.Size = new System.Drawing.Size(168, 46);
             this.label6.TabIndex = 159;
             this.label6.Text = "REZERVASYON SON TARİH";
             // 
@@ -576,10 +572,9 @@
             this.label7.AutoSize = true;
             this.label7.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(416, 70);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(554, 84);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(135, 17);
+            this.label7.Size = new System.Drawing.Size(180, 23);
             this.label7.TabIndex = 155;
             this.label7.Text = " İNDİRİM ";
             // 
@@ -588,10 +583,9 @@
             this.label4.AutoSize = true;
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(272, 70);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(362, 84);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 17);
+            this.label4.Size = new System.Drawing.Size(186, 23);
             this.label4.TabIndex = 154;
             this.label4.Text = "ODA TİPİ ";
             // 
@@ -600,10 +594,9 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(133, 70);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(177, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 17);
+            this.label1.Size = new System.Drawing.Size(179, 23);
             this.label1.TabIndex = 149;
             this.label1.Text = "SATIŞ TUTARI ";
             // 
@@ -612,10 +605,9 @@
             this.label13.AutoSize = true;
             this.label13.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(2, 70);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(3, 84);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(127, 17);
+            this.label13.Size = new System.Drawing.Size(168, 23);
             this.label13.TabIndex = 148;
             this.label13.Text = "ODA KART NO";
             // 
@@ -624,10 +616,9 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(416, 10);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(554, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 17);
+            this.label2.Size = new System.Drawing.Size(180, 23);
             this.label2.TabIndex = 141;
             this.label2.Text = "ODA NUMARASI ";
             // 
@@ -636,10 +627,9 @@
             this.rezlabel23.AutoSize = true;
             this.rezlabel23.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rezlabel23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rezlabel23.Location = new System.Drawing.Point(272, 10);
-            this.rezlabel23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.rezlabel23.Location = new System.Drawing.Point(362, 10);
             this.rezlabel23.Name = "rezlabel23";
-            this.rezlabel23.Size = new System.Drawing.Size(140, 17);
+            this.rezlabel23.Size = new System.Drawing.Size(186, 23);
             this.rezlabel23.TabIndex = 163;
             this.rezlabel23.Text = "TOPLAM GÜN";
             // 
@@ -647,20 +637,20 @@
             // 
             this.rezdtpodagiris.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rezdtpodagiris.Enabled = false;
-            this.rezdtpodagiris.Location = new System.Drawing.Point(2, 40);
-            this.rezdtpodagiris.Margin = new System.Windows.Forms.Padding(2);
+            this.rezdtpodagiris.Location = new System.Drawing.Point(3, 52);
+            this.rezdtpodagiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezdtpodagiris.Name = "rezdtpodagiris";
-            this.rezdtpodagiris.Size = new System.Drawing.Size(127, 20);
+            this.rezdtpodagiris.Size = new System.Drawing.Size(168, 22);
             this.rezdtpodagiris.TabIndex = 165;
             // 
             // rezdtpodacikis
             // 
             this.rezdtpodacikis.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rezdtpodacikis.Enabled = false;
-            this.rezdtpodacikis.Location = new System.Drawing.Point(133, 40);
-            this.rezdtpodacikis.Margin = new System.Windows.Forms.Padding(2);
+            this.rezdtpodacikis.Location = new System.Drawing.Point(177, 52);
+            this.rezdtpodacikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezdtpodacikis.Name = "rezdtpodacikis";
-            this.rezdtpodacikis.Size = new System.Drawing.Size(135, 20);
+            this.rezdtpodacikis.Size = new System.Drawing.Size(179, 22);
             this.rezdtpodacikis.TabIndex = 164;
             // 
             // rezlbltoplamgün
@@ -669,10 +659,9 @@
             this.rezlbltoplamgün.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rezlbltoplamgün.Enabled = false;
             this.rezlbltoplamgün.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rezlbltoplamgün.Location = new System.Drawing.Point(272, 45);
-            this.rezlbltoplamgün.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.rezlbltoplamgün.Location = new System.Drawing.Point(362, 53);
             this.rezlbltoplamgün.Name = "rezlbltoplamgün";
-            this.rezlbltoplamgün.Size = new System.Drawing.Size(140, 17);
+            this.rezlbltoplamgün.Size = new System.Drawing.Size(186, 23);
             this.rezlbltoplamgün.TabIndex = 166;
             this.rezlbltoplamgün.Text = "..........................";
             // 
@@ -680,38 +669,38 @@
             // 
             this.reztxtodanumarası.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.reztxtodanumarası.Enabled = false;
-            this.reztxtodanumarası.Location = new System.Drawing.Point(416, 40);
-            this.reztxtodanumarası.Margin = new System.Windows.Forms.Padding(2);
+            this.reztxtodanumarası.Location = new System.Drawing.Point(554, 52);
+            this.reztxtodanumarası.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztxtodanumarası.Name = "reztxtodanumarası";
-            this.reztxtodanumarası.Size = new System.Drawing.Size(135, 20);
+            this.reztxtodanumarası.Size = new System.Drawing.Size(180, 22);
             this.reztxtodanumarası.TabIndex = 167;
             // 
             // reztxtodakartno
             // 
             this.reztxtodakartno.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.reztxtodakartno.Enabled = false;
-            this.reztxtodakartno.Location = new System.Drawing.Point(2, 89);
-            this.reztxtodakartno.Margin = new System.Windows.Forms.Padding(2);
+            this.reztxtodakartno.Location = new System.Drawing.Point(3, 109);
+            this.reztxtodakartno.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztxtodakartno.Name = "reztxtodakartno";
-            this.reztxtodakartno.Size = new System.Drawing.Size(127, 20);
+            this.reztxtodakartno.Size = new System.Drawing.Size(168, 22);
             this.reztxtodakartno.TabIndex = 168;
             // 
             // reztxtsatistutar
             // 
             this.reztxtsatistutar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.reztxtsatistutar.Location = new System.Drawing.Point(133, 89);
-            this.reztxtsatistutar.Margin = new System.Windows.Forms.Padding(2);
+            this.reztxtsatistutar.Location = new System.Drawing.Point(177, 109);
+            this.reztxtsatistutar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.reztxtsatistutar.Name = "reztxtsatistutar";
-            this.reztxtsatistutar.Size = new System.Drawing.Size(135, 20);
+            this.reztxtsatistutar.Size = new System.Drawing.Size(179, 22);
             this.reztxtsatistutar.TabIndex = 169;
             // 
             // rezindirimcb
             // 
             this.rezindirimcb.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.rezindirimcb.Location = new System.Drawing.Point(416, 89);
-            this.rezindirimcb.Margin = new System.Windows.Forms.Padding(2);
+            this.rezindirimcb.Location = new System.Drawing.Point(554, 109);
+            this.rezindirimcb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rezindirimcb.Name = "rezindirimcb";
-            this.rezindirimcb.Size = new System.Drawing.Size(135, 20);
+            this.rezindirimcb.Size = new System.Drawing.Size(180, 22);
             this.rezindirimcb.TabIndex = 171;
             // 
             // rezlblfiyat
@@ -719,10 +708,9 @@
             this.rezlblfiyat.AutoSize = true;
             this.rezlblfiyat.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.rezlblfiyat.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rezlblfiyat.Location = new System.Drawing.Point(272, 206);
-            this.rezlblfiyat.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.rezlblfiyat.Location = new System.Drawing.Point(362, 252);
             this.rezlblfiyat.Name = "rezlblfiyat";
-            this.rezlblfiyat.Size = new System.Drawing.Size(140, 17);
+            this.rezlblfiyat.Size = new System.Drawing.Size(186, 23);
             this.rezlblfiyat.TabIndex = 173;
             this.rezlblfiyat.Text = "...................";
             // 
@@ -730,18 +718,20 @@
             // 
             this.Rezcbreziptalmi.AutoSize = true;
             this.Rezcbreziptalmi.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Rezcbreziptalmi.Location = new System.Drawing.Point(417, 203);
+            this.Rezcbreziptalmi.Location = new System.Drawing.Point(555, 251);
+            this.Rezcbreziptalmi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Rezcbreziptalmi.Name = "Rezcbreziptalmi";
-            this.Rezcbreziptalmi.Size = new System.Drawing.Size(133, 17);
+            this.Rezcbreziptalmi.Size = new System.Drawing.Size(178, 20);
             this.Rezcbreziptalmi.TabIndex = 175;
             this.Rezcbreziptalmi.Text = "İPTAL";
             this.Rezcbreziptalmi.UseVisualStyleBackColor = true;
             // 
             // txtRezOdaTipi
             // 
-            this.txtRezOdaTipi.Location = new System.Drawing.Point(273, 90);
+            this.txtRezOdaTipi.Location = new System.Drawing.Point(363, 111);
+            this.txtRezOdaTipi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRezOdaTipi.Name = "txtRezOdaTipi";
-            this.txtRezOdaTipi.Size = new System.Drawing.Size(100, 20);
+            this.txtRezOdaTipi.Size = new System.Drawing.Size(132, 22);
             this.txtRezOdaTipi.TabIndex = 181;
             // 
             // panel1
@@ -751,17 +741,19 @@
             this.panel1.Controls.Add(this.lblTarih);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1431, 100);
+            this.panel1.Size = new System.Drawing.Size(1908, 123);
             this.panel1.TabIndex = 149;
             // 
             // lblSaat
             // 
             this.lblSaat.AutoSize = true;
             this.lblSaat.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSaat.Location = new System.Drawing.Point(1197, 63);
+            this.lblSaat.Location = new System.Drawing.Point(1596, 78);
+            this.lblSaat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSaat.Name = "lblSaat";
-            this.lblSaat.Size = new System.Drawing.Size(107, 25);
+            this.lblSaat.Size = new System.Drawing.Size(128, 32);
             this.lblSaat.TabIndex = 1;
             this.lblSaat.Text = "...................";
             // 
@@ -769,9 +761,10 @@
             // 
             this.lblTarih.AutoSize = true;
             this.lblTarih.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTarih.Location = new System.Drawing.Point(1197, 26);
+            this.lblTarih.Location = new System.Drawing.Point(1596, 32);
+            this.lblTarih.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTarih.Name = "lblTarih";
-            this.lblTarih.Size = new System.Drawing.Size(107, 25);
+            this.lblTarih.Size = new System.Drawing.Size(128, 32);
             this.lblTarih.TabIndex = 0;
             this.lblTarih.Text = "...................";
             // 
@@ -779,10 +772,10 @@
             // 
             this.btnRezervasyon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnRezervasyon.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnRezervasyon.Location = new System.Drawing.Point(1161, 448);
-            this.btnRezervasyon.Margin = new System.Windows.Forms.Padding(2);
+            this.btnRezervasyon.Location = new System.Drawing.Point(1548, 551);
+            this.btnRezervasyon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnRezervasyon.Name = "btnRezervasyon";
-            this.btnRezervasyon.Size = new System.Drawing.Size(167, 72);
+            this.btnRezervasyon.Size = new System.Drawing.Size(223, 89);
             this.btnRezervasyon.TabIndex = 150;
             this.btnRezervasyon.Text = "REZERVASYONU SONLANDIR";
             this.btnRezervasyon.UseVisualStyleBackColor = false;
@@ -792,23 +785,25 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Cambria", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(775, 437);
+            this.label8.Location = new System.Drawing.Point(1033, 538);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(107, 25);
+            this.label8.Size = new System.Drawing.Size(128, 32);
             this.label8.TabIndex = 152;
             this.label8.Text = "...................";
             this.label8.Visible = false;
             // 
             // FrmRezervasyonEkle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1431, 759);
+            this.ClientSize = new System.Drawing.Size(1908, 934);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.btnRezervasyon);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.gbMüsMis);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmRezervasyonEkle";
             this.Text = "FrmRezervasyonEkle";
             this.Load += new System.EventHandler(this.FrmRezervasyonEkle_Load);
