@@ -158,6 +158,11 @@ namespace BilgiHotelDAL
             {
                 new SqlParameter
                 {
+                    ParameterName= "PersonelId",
+                    Value=GüncellenecekPersonel.PersonelId
+                },
+                new SqlParameter
+                {
                     ParameterName= "PersonelAd",
                     Value=GüncellenecekPersonel.PersonelAd
                 },

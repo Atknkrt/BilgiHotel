@@ -79,6 +79,12 @@
     <Compile Include="FrmMüsteriEkle.Designer.cs">
       <DependentUpon>FrmMüsteriEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPersonelBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPersonelBilgileri.Designer.cs">
+      <DependentUpon>FrmPersonelBilgileri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRezervasyonBilgileri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMüsteriEkle.resx">
       <DependentUpon>FrmMüsteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPersonelBilgileri.resx">
+      <DependentUpon>FrmPersonelBilgileri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRezervasyonBilgileri.resx">
       <DependentUpon>FrmRezervasyonBilgileri.cs</DependentUpon>

@@ -19,6 +19,7 @@ namespace BilgiHotelForm
         MüsterilerEntity mymüsteri = new MüsterilerEntity();
         PersonellerEntity personel = new PersonellerEntity();
         Tools tool=new Tools();
+        
         public FrmMüsteriEkle()
         {
             InitializeComponent();
