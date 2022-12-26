@@ -67,6 +67,12 @@
     <Compile Include="FrmErkenRezervasyonİndirimi.Designer.cs">
       <DependentUpon>FrmErkenRezervasyonİndirimi.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmKullaniciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKullaniciEkle.Designer.cs">
+      <DependentUpon>FrmKullaniciEkle.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMisafirEkle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     </Compile>
     <Compile Include="FrmMüsteriEkle.Designer.cs">
       <DependentUpon>FrmMüsteriEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOdaAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOdaAyarlari.Designer.cs">
+      <DependentUpon>FrmOdaAyarlari.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPersonelBilgileri.cs">
       <SubType>Form</SubType>
@@ -140,11 +152,17 @@
     <EmbeddedResource Include="FrmErkenRezervasyonİndirimi.resx">
       <DependentUpon>FrmErkenRezervasyonİndirimi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmKullaniciEkle.resx">
+      <DependentUpon>FrmKullaniciEkle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMisafirEkle.resx">
       <DependentUpon>FrmMisafirEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMüsteriEkle.resx">
       <DependentUpon>FrmMüsteriEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOdaAyarlari.resx">
+      <DependentUpon>FrmOdaAyarlari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonelBilgileri.resx">
       <DependentUpon>FrmPersonelBilgileri.cs</DependentUpon>
